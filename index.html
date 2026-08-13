@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="sidebar">
+        
+        <div class="intSide">
+        <img src="img/odin-lined.png" alt="logo">
+        <h1>Odin</h1>
+        </div>
+
+    </section>
+
+    <section class="secFormulario">
+
+            <p>This is not a real online service! You know you need 
+            something like this in your life to help you deeoest 
+            dreams. <br>Sign out <em>now</em> to get started.</p>
+            
+            <p>You <em>know</em> you want to.</p>
+
+            <form action="ejemplo.com/sesion" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div class="form1">
+                    <div>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" required>
+                    </div>
+		            <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    </div>
+                    <div>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" pattern="(?=.*[A-Za-z])(?=.*[/W_]).{6,}" required>
+                    </div>
+		            </div>
+		            <div class="form2">
+			        <div>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" required>
+                    </div>
+		            <div>
+                    <label for="phone">Phone Number::</label>
+                    <input type="tel" maxlength="15" id="phone" required>
+                    </div>
+			        <div>
+                    <label for="confirm">Confirm Password:</label>
+                    <input type="password" id="confirm" pattern="(?=.*[A-Za-z])(?=.*[/W_]).{6,}" required>
+                    </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p class="foot">Already have an account? <a href="login.html"> Log in! </a></p>
+
+    </section>
+
+    
+</body>
+</html>
